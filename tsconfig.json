@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    //"target": "es2019"
+    "target": "es2017",                         
+    "module": "commonjs", 
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "removeComments": true,
+    "noEmitOnError": true,
+    "allowJs": true,                                            
+    "esModuleInterop": true,                  
+    "skipLibCheck": true,                     
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    
+  },
+  "typedocOptions": {
+    "mode": ["files"],
+    "out": "files"
+},
+  "include": ["src/**/*.ts"],
+  
+}
